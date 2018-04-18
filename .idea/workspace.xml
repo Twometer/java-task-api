@@ -74,26 +74,6 @@
               <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -176,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524044954216</updated>
-      <workItem from="1524044958328" duration="1470000" />
+      <workItem from="1524044958328" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1470000" />
+    <option name="totallyTimeSpent" value="1514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
