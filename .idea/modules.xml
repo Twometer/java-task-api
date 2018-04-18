@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/annotation-processor/annotation-processor.iml" filepath="$PROJECT_DIR$/annotation-processor/annotation-processor.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-task-api.iml" filepath="$PROJECT_DIR$/java-task-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-task-api-examples/java-task-api-examples.iml" filepath="$PROJECT_DIR$/java-task-api-examples/java-task-api-examples.iml" />
     </modules>
   </component>
 </project>

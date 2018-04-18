@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="annotation-processor:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd4a808-d1f3-4e8d-8cc6-05b7845289de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/api/GenericRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/core/GenericTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/annotation_processor_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/annotations_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation-processor/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-task-api-examples/java-task-api-examples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotation-processor/annotation-processor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/annotation-processor/annotation-processor.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +34,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>process</find>
+      <find>bool proc</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +57,9 @@
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/api/GenericRunnable.java" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" />
+        <option value="$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor" />
+        <option value="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" />
+        <option value="$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java" />
       </list>
     </option>
   </component>
@@ -51,8 +70,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1415" />
-    <option name="y" value="-45" />
+    <option name="x" value="488" />
+    <option name="y" value="120" />
     <option name="width" value="865" />
     <option name="height" value="950" />
   </component>
@@ -61,6 +80,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -72,24 +93,87 @@
             <path>
               <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation-processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation-processor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-task-api-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-task-api-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-task-api-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/annotation_processor_jar/annotation-processor.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21149425" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,6 +188,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.twometer.taskApi.example.ExampleMain" />
+      <module name="java-task-api-examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.twometer.taskApi.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -122,6 +217,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="annotation-processor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -145,6 +250,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExampleMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -157,42 +267,45 @@
       <option name="presentableId" value="Default" />
       <updated>1524044954216</updated>
       <workItem from="1524044958328" duration="1514000" />
+      <workItem from="1524062133631" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1514000" />
+    <option name="totallyTimeSpent" value="5206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32963374" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24983734" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,18 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -260,16 +361,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/annotation/processing/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="295" column="34" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/annotation/processing/Filer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.10.0/javapoet-1.10.0.jar!/com/squareup/javapoet/JavaFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1209#1217#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotations/annotations.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>annotation-processor:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21149425" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -281,7 +450,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21149425" />
               </list>
             </option>
           </splitter-proportions>
@@ -305,7 +474,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21149425" />
               </list>
             </option>
           </splitter-proportions>
@@ -313,12 +482,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-task-api</last-edited>
+          <last-edited>java-task-api-examples</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.21149425" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -326,10 +494,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>com.squareup:javapoet:1.10.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21149425" />
               </list>
             </option>
           </splitter-proportions>

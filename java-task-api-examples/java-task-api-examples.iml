@@ -7,7 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="annotation-processor" />
     <orderEntry type="module" module-name="annotations" />
-    <orderEntry type="library" name="com.squareup:javapoet:1.10.0" level="project" />
+    <orderEntry type="module" module-name="java-task-api" />
   </component>
 </module>
