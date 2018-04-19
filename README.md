@@ -3,6 +3,12 @@ Task-based asynchronous pattern for java.
 
 _Make porting from C# to java easy_
 
+## Getting started
+To use the following code examples with this syntax, you'll need the following import statements
+```java
+import de.twometer.taskApi.core.*;
+import static de.twometer.taskApi.TaskApi.*;
+```
 
 ## Running custom tasks
 ```csharp
@@ -85,3 +91,6 @@ becomes
         });
     }
 ```
+
+## Utility methods
+- `Task.delay(int millis)` like in C#

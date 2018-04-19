@@ -29,6 +29,16 @@ public abstract class Task {
         return t;
     }
 
+    public static Task delay(int millis) {
+        return run(() -> {
+            try {
+                Thread.sleep(millis);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+    }
+
     public abstract void execute();
 
     public Task() {

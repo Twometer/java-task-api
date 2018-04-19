@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd4a808-d1f3-4e8d-8cc6-05b7845289de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_squareup_javapoet_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TaskApi.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaskApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
@@ -49,13 +46,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleMain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExampleMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="32">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +102,11 @@
         <option value="$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor" />
         <option value="$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/util/WaitHandle.java" />
-        <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java" />
-        <option value="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" />
+        <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" />
+        <option value="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" />
       </list>
     </option>
   </component>
@@ -272,12 +280,12 @@
       <workItem from="1524044958328" duration="1514000" />
       <workItem from="1524062133631" duration="3692000" />
       <workItem from="1524124247372" duration="2706000" />
-      <workItem from="1524126985779" duration="230000" />
+      <workItem from="1524126985779" duration="488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8142000" />
+    <option name="totallyTimeSpent" value="8400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -377,9 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,20 +411,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.10.0/javapoet-1.10.0.jar!/com/squareup/javapoet/JavaFile.class" />
     <entry file="file://$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java" />
     <entry file="file://$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor" />
-    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/GenericTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -439,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -456,13 +440,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -477,6 +470,13 @@
             <element signature="e#558#559#0" expanded="true" />
             <element signature="e#604#605#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>

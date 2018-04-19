@@ -1,11 +1,7 @@
 package de.twometer.taskApi.example;
 
-import de.twometer.taskApi.core.GenericTask;
-import de.twometer.taskApi.core.Task;
-
-import static de.twometer.taskApi.TaskApi.async;
-import static de.twometer.taskApi.TaskApi.asyncTask;
-import static de.twometer.taskApi.TaskApi.await;
+import de.twometer.taskApi.core.*;
+import static de.twometer.taskApi.TaskApi.*;
 
 public class ExampleMain {
 
