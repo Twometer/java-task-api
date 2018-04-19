@@ -1,5 +1,6 @@
 package de.twometer.taskApi.core;
 
+import de.twometer.taskApi.TaskApi;
 import de.twometer.taskApi.api.GenericRunnable;
 import de.twometer.taskApi.util.WaitHandle;
 
@@ -36,6 +37,12 @@ public abstract class Task {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+        });
+    }
+
+    public static Task waitAll(Task... tasks) {
+        return TaskApi.asyncTask(() -> {
+           for(Task t : tasks) TaskApi.await(t);
         });
     }
 

@@ -92,5 +92,7 @@ becomes
     }
 ```
 
-## Utility methods
-- `Task.delay(int millis)` like in C#
+## Available static methods in `Task`
+- `Task.delay(int millis)`
+- `Task.run(Runnable runnable)`
+- `Task.waitAll(Task... tasks)`
