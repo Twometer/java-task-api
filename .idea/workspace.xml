@@ -7,19 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd4a808-d1f3-4e8d-8cc6-05b7845289de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/util/WaitHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_squareup_javapoet_1_10_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-processor/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-processor/annotation-processor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotations/annotations.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotations/src/de/twometer/taskApi/annotations/Async.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +23,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TaskApi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="384">
+              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskEngine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +76,11 @@
     <findStrings>
       <find>process</find>
       <find>bool proc</find>
+      <find>await longOperation;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>await longOperation();</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/util/WaitHandle.java" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java" />
+        <option value="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java" />
-        <option value="$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java" />
       </list>
     </option>
   </component>
@@ -87,8 +109,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="487" />
-    <option name="y" value="120" />
+    <option name="x" value="1655" />
+    <option name="y" value="-25" />
     <option name="width" value="865" />
     <option name="height" value="950" />
   </component>
@@ -97,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -109,6 +130,24 @@
             <path>
               <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-task-api-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-task-api-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-task-api-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -116,26 +155,13 @@
               <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="taskApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-task-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-task-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="taskApi" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +173,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/annotation_processor_jar/annotation-processor.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21149425" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -245,12 +271,13 @@
       <updated>1524044954216</updated>
       <workItem from="1524044958328" duration="1514000" />
       <workItem from="1524062133631" duration="3692000" />
-      <workItem from="1524124247372" duration="1932000" />
+      <workItem from="1524124247372" duration="2706000" />
+      <workItem from="1524126985779" duration="230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7138000" />
+    <option name="totallyTimeSpent" value="8142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -258,7 +285,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -278,42 +304,43 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.24983734" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Messages" order="11" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="Designer" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32863188" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25243983" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -325,13 +352,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/annotations/src/de/twometer/taskApi/annotations/Async.java">
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1104">
+            <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotations/src/de/twometer/taskApi/annotations/Async.java" />
     <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/api/GenericRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -344,23 +406,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.10.0/javapoet-1.10.0.jar!/com/squareup/javapoet/JavaFile.class" />
     <entry file="file://$PROJECT_DIR$/annotation-processor/src/de/twometer/taskApi/AsyncAnnotationProcessor.java" />
     <entry file="file://$PROJECT_DIR$/annotation-processor/META-INF/services/javax.annotation.processing.Processor" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -372,13 +417,6 @@
             <element signature="e#921#922#0" expanded="true" />
             <element signature="e#954#955#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -401,12 +439,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/core/TaskEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="64">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1296">
+            <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-task-api-examples/src/de/twometer/taskApi/example/ExampleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/twometer/taskApi/TaskApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -466,7 +535,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-task-api-examples</last-edited>
+          <last-edited>java-task-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

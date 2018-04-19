@@ -1,8 +1,20 @@
 # java-task-api
-Task-based asynchronous pattern for java
+Task-based asynchronous pattern for java.
+
+_Make porting from C# to java easy_
 
 
 ## Running custom tasks
+```csharp
+    private Task LongOperation() {
+        return Task.Run(() => {
+            Thread.Sleep(10000);
+        });
+    }
+```
+
+becomes
+
 ```java
     private Task longOperation() {
         return Task.run(() -> {
@@ -15,12 +27,61 @@ Task-based asynchronous pattern for java
     }
 ```
 
-## Async & await
+## Async methods
+```csharp
+   private async void testAsync() {
+      Console.WriteLine("Awaiting method");
+      await longOperation;
+      Console.WriteLine("Done awaiting");
+   }
+```
+becomes
 ```java
-    @Async
     private void testAsync() {
-        System.out.println("Awaiting method");
-        await(longOperation());
-        System.out.println("Done awaiting");
+        async(() -> {
+            System.out.println("Awaiting method");
+            await(longOperation());
+            System.out.println("Done awaiting");
+        });
+    }
+```
+
+## Async Task methods
+```csharp
+   private async Task testAsync() {
+      Console.WriteLine("Awaiting method");
+      await longOperation();
+      Console.WriteLine("Done awaiting");
+   }
+```
+becomes
+```java
+    private Task testAsync() {
+        return asyncTask(() -> {
+            System.out.println("Awaiting method");
+            await(longOperation());
+            System.out.println("Done awaiting");
+        });
+    }
+```
+
+## Task with return values
+```csharp
+   private async Task<string> testAsync() {
+      Console.WriteLine("Awaiting method");
+      await longOperation;
+      Console.WriteLine("Done awaiting");
+      return "Hi";
+   }
+```
+becomes
+```java
+    private GenericTask<String> testAsync() {
+        return asyncGenericTask(String.class, () -> {
+            System.out.println("Awaiting method");
+            await(longOperation());
+            System.out.println("Done awaiting");
+			return "Hi";
+        });
     }
 ```
