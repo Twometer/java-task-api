@@ -8,6 +8,10 @@ public class TaskEngine {
     }
 
     public static void runTask(Task task) {
-
+        Thread thread = new Thread(() -> {
+            task.execute();
+            task.getWaitHandle().notifyHandle();
+        });
+        thread.start();
     }
 }

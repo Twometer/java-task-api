@@ -1,8 +1,11 @@
 package de.twometer.taskApi.core;
 
 import de.twometer.taskApi.api.GenericRunnable;
+import de.twometer.taskApi.util.WaitHandle;
 
 public abstract class Task {
+
+    private WaitHandle waitHandle;
 
     public static Task run(Runnable runnable) {
         Task t = new Task() {
@@ -28,4 +31,11 @@ public abstract class Task {
 
     public abstract void execute();
 
+    public Task() {
+        this.waitHandle = new WaitHandle();
+    }
+
+    public WaitHandle getWaitHandle() {
+        return waitHandle;
+    }
 }

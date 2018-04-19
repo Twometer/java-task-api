@@ -18,7 +18,7 @@ Task-based asynchronous pattern for java
 ## Async & await
 ```java
     @Async
-    private void testAsyc() {
+    private void testAsync() {
         System.out.println("Awaiting method");
         await(longOperation());
         System.out.println("Done awaiting");

@@ -7,8 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="annotation-processor" />
-    <orderEntry type="module" module-name="annotations" />
     <orderEntry type="module" module-name="java-task-api" />
   </component>
 </module>
